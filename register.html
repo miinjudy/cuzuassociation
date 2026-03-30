@@ -1,0 +1,38 @@
+<form onsubmit="alert('완료되었습니다!');">
+    <fieldset>
+        <legend>기니 인적사항 입력</legend>
+
+        이름 : <input type="text" name="name"><br><br>
+
+        성별 :
+        <input type="radio" name="gender" value="남"> 남
+        <input type="radio" name="gender" value="여"> 여
+        <br><br>
+
+        키 : <input type="number" name="height"><br><br>
+
+        체중 : <input type="number" name="weight"><br><br>
+
+        냄새 강도 :
+        <select name="smell">
+            <option value="">선택하세요</option>
+            <option value="상">상</option>
+            <option value="중">중</option>
+            <option value="하">하</option>
+        </select>
+        <br><br>
+
+        털 상태 :
+        <select name="fur">
+            <option value="">선택하세요</option>
+            <option value="최상">최상</option>
+            <option value="상">상</option>
+            <option value="중">중</option>
+            <option value="하">하</option>
+            <option value="최하">최하</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="제출하기">
+    </fieldset>
+</form>
